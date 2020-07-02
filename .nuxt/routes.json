@@ -1,9 +1,31 @@
 [
   {
+    "path": "/projects",
+    "component": "C:\\\\Users\\\\User\\\\source\\\\repos\\\\vue-test\\\\pages\\\\projects.vue",
+    "chunkName": "pages/projects",
+    "children": [
+      {
+        "name": "projects",
+        "path": "",
+        "component": "C:\\\\Users\\\\User\\\\source\\\\repos\\\\vue-test\\\\pages\\\\projects\\\\index.vue",
+        "chunkName": "pages/projects/index",
+        "_name": "_44e0de45"
+      },
+      {
+        "name": "projects-id",
+        "path": ":id",
+        "component": "C:\\\\Users\\\\User\\\\source\\\\repos\\\\vue-test\\\\pages\\\\projects\\\\_id.vue",
+        "chunkName": "pages/projects/_id",
+        "_name": "_9da8a426"
+      }
+    ],
+    "_name": "_d1d4c8c6"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\User\\\\my-project\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\User\\\\source\\\\repos\\\\vue-test\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_4e06ed44"
+    "_name": "_14eb68bf"
   }
 ]

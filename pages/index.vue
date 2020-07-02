@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Login from '~/components/Login.vue'
+import Login from '~/components/login.vue'
 
 export default {
   components: {
@@ -23,6 +23,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #f4f4f4;
 }
 
 .title {

@@ -34,6 +34,45 @@ module.exports = {
         })
       }
     }
-  }
+  },
+
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
+  ],
+
+  axios: {
+    baseURL: "https://api.quwi.com/v2/"
+  },
+
+  auth: {
+    redirect: {
+      login: '/',
+      logout: '/',
+      home: '/projects'
+    },
+    strategies: {
+      local: {
+        endpoints: {
+          login: {
+            url: "auth/login",
+            method: "post",
+            propertyName: "data.token",
+          },
+          logout: {
+            url: "auth/logout",
+            method: "post",
+            propertyName: "data.token",
+          },
+          user: false,
+        },
+        autoFetchUser: false
+      },
+    }
+  },
+
+  plugins: [
+    '~/plugins/axios'
+  ]
 }
 
